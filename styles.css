@@ -1,0 +1,112 @@
+/* h1{
+    color: blue;
+    background-image:; */
+/* } */
+.image {
+	background-image:url('1st.jpg');
+background-position: center;
+background-repeat: no-repeat;
+position: relative;
+background-size: cover
+}
+
+.header {
+	padding-top: 5cm; 
+    	color: rgb(73, 4, 4);
+	font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+#myself{
+    image-orientation: flip;
+    /* flex-basis: 40%; */
+    display: flex;
+         align-items:center;  
+        justify-content:left;
+        padding-left: 3cm; 
+}
+    .myself{font-size: 40px;
+     font-style: normal;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align:justify;
+    padding-bottom: 4cm;  
+    padding-left: 1cm;  }
+     .myselfdetails{
+        font-size: 20px;
+        font-style: normal;
+        font-family:'Times New Roman', Times, serif;
+         padding-right: 1cm;
+        margin-left: 10px;
+    overflow:auto;
+    display:block;
+    text-align:justify;
+    padding-left: 1cm;  
+        
+    }
+#education{ 
+    image-orientation: flip; 
+    flex-basis: 40%; 
+     display: flex;
+         align-items:center;  
+        justify-content:left;
+        padding-left: 3cm; 
+        /* display: grid;
+         align-items:unset;  
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        /* column-gap: 1cm; */ 
+    }
+    .educ{font-size: 25px;
+        font-style: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:justify;
+       padding-bottom: 3cm;  
+       padding-left: 1cm;  }
+ .education{
+    /* font-size: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+   padding-top: 0cm;  
+   padding-left: 5cm;  */
+    
+    font-size: 20px;
+        font-style: normal;
+        font-family:Arial, Helvetica, sans-serif;
+         padding-right: 1cm;
+        margin-left: 10px;
+    overflow:auto;
+    display:block;
+    text-align:justify;
+    padding-left: 1cm;  
+
+}
+#internship{
+    image-orientation: flip;
+    /* flex-basis: 40%; */
+    display: flex;
+         align-items:center;  
+        justify-content:left;
+        padding-left: 3cm; 
+}
+    .intern{font-size:25 px;
+     font-style: normal;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align:justify;
+    padding-bottom: 3cm;  
+    padding-left: 1cm;  }
+     .inters{
+        font-size: 20px;
+        font-style: normal;
+        font-family:Arial, Helvetica, sans-serif;
+         padding-right: 1cm;
+        margin-left: 10px;
+    overflow:auto;
+    display:block;
+    text-align:justify;
+    padding-left: 1cm;  
+        
+    }
+    .skill{font-size: 50px;
+        font-style: normal;
+        font-family:Arial, Helvetica, sans-serif;
+    padding-left: 3cm;}
